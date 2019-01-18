@@ -3,6 +3,9 @@ const bodyParser = require('body-parser');
 
 var app = express();
 
+var port = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || 8080,
+    ip   = process.env.IP   || process.env.OPENSHIFT_NODEJS_IP || '0.0.0.0'
+
 app.post("/", function (req, res, next) {
     var sasa = require("./src/app");
     res.redirect(307, "http://localhost:8080/result");
@@ -27,4 +30,4 @@ app.get("/", function (req, res, next) {
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-app.listen(3000);
+app.listen(port, ip);

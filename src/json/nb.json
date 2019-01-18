@@ -1,0 +1,1318 @@
+[
+    {
+        "name": "global",
+        "control": [
+            {
+                "atom": "CA",
+                "nb": [
+                    "C",
+                    "CB",
+                    "N"
+                ],
+                "h": [
+                    {
+                        "name": "HA",
+                        "type": "C"
+                    }
+                ]
+            },
+            {
+                "atom": "OXT",
+                "nb": [
+                    "C",
+                    "O"
+                ],
+                "pKa": 3,
+                "h": [
+                    {
+                        "name": "HXT",
+                        "type": "carbox"
+                    }
+                ]
+            },
+            {
+                "atom": "N",
+                "nb": [
+                    "C",
+                    "CA"
+                ],
+                "pKa": 8,
+                "h": [
+                    {
+                        "name": "H",
+                        "type": "Ncoplanar"
+                    },
+                    {
+                        "name": "H2",
+                        "type": "exc"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "GLY",
+        "control": [
+            {
+                "atom": "CA",
+                "nb": [
+                    "C",
+                    "N"
+                ],
+                "h": [
+                    {
+                        "name": "HA3",
+                        "type": "C3"
+                    },
+                    {
+                        "name": "HA2",
+                        "type": "C2"
+                    }
+                ]
+            },
+            {
+                "atom": "OXT",
+                "nb": [
+                    "C",
+                    "O"
+                ],
+                "pKa": 3,
+                "h": [
+                    {
+                        "name": "HXT",
+                        "type": "carbox"
+                    }
+                ]
+            },
+            {
+                "atom": "N",
+                "nb": [
+                    "C",
+                    "CA"
+                ],
+                "pKa": 8,
+                "h": [
+                    {
+                        "name": "H",
+                        "type": "Ncoplanar"
+                    },
+                    {
+                        "name": "H2",
+                        "type": "exc"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "ALA",
+        "control": [
+            {
+                "atom": "CB",
+                "nb": [
+                    "C",
+                    "CA"
+                ],
+                "h": [
+                    {
+                        "name": "HB1",
+                        "type": "C4"
+                    },
+                    {
+                        "name": "HB3",
+                        "type": "C3"
+                    },
+                    {
+                        "name": "HB2",
+                        "type": "C2"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "ARG",
+        "control": [
+            {
+                "atom": "CB",
+                "nb": [
+                    "CA",
+                    "CG"
+                ],
+                "h": [
+                    {
+                        "name": "HB3",
+                        "type": "C3"
+                    },
+                    {
+                        "name": "HB2",
+                        "type": "C2"
+                    }
+                ]
+            },
+            {
+                "atom": "CG",
+                "nb": [
+                    "CD",
+                    "CB"
+                ],
+                "h": [
+                    {
+                        "name": "HG3",
+                        "type": "C3"
+                    },
+                    {
+                        "name": "HG2",
+                        "type": "C2"
+                    }
+                ]
+            },
+            {
+                "atom": "CD",
+                "nb": [
+                    "NE",
+                    "CG"
+                ],
+                "h": [
+                    {
+                        "name": "HD3",
+                        "type": "C3"
+                    },
+                    {
+                        "name": "HD2",
+                        "type": "C2"
+                    }
+                ]
+            },
+            {
+                "atom": "NE",
+                "nb": [
+                    "CD",
+                    "CZ"
+                ],
+                "h": [
+                    {
+                        "name": "HE",
+                        "type": "argN"
+                    }
+                ]
+            },
+            {
+                "atom": "NH1",
+                "nb": [
+                    "NE",
+                    "CZ",
+                    "NH2"
+                ],
+                "pKa": 12.5,
+                "h": [
+                    {
+                        "name": "HH11",
+                        "type": "Ncoplanar"
+                    },
+                    {
+                        "name": "HH12",
+                        "type": "exc"
+                    },
+                    {
+                        "name": "HH13",
+                        "type": "N3"
+                    }
+                ]
+            },
+            {
+                "atom": "NH2",
+                "nb": [
+                    "NE",
+                    "CZ",
+                    "NH1"
+                ],
+                "h": [
+                    {
+                        "name": "HH22",
+                        "type": "N2cop"
+                    },
+                    {
+                        "name": "HH21",
+                        "type": "N1cop"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "ASN",
+        "control": [
+            {
+                "atom": "CB",
+                "nb": [
+                    "CA",
+                    "CG"
+                ],
+                "h": [
+                    {
+                        "name": "HB3",
+                        "type": "C3"
+                    },
+                    {
+                        "name": "HB2",
+                        "type": "C2"
+                    }
+                ]
+            },
+            {
+                "atom": "ND2",
+                "nb": [
+                    "OD1",
+                    "CG"
+                ],
+                "h": [
+                    {
+                        "name": "HD22",
+                        "type": "N2cop"
+                    },
+                    {
+                        "name": "HD21",
+                        "type": "N1cop"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "ASP",
+        "control": [
+            {
+                "atom": "CB",
+                "nb": [
+                    "CA",
+                    "CG"
+                ],
+                "h": [
+                    {
+                        "name": "HB3",
+                        "type": "C3"
+                    },
+                    {
+                        "name": "HB2",
+                        "type": "C2"
+                    }
+                ]
+            },
+            {
+                "atom": "OD2",
+                "nb": [
+                    "CG",
+                    "OD1"
+                ],
+                "pKa": 4,
+                "h": [
+                    {
+                        "name": "HD2",
+                        "type": "carbox"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "CYS",
+        "control": [
+            {
+                "atom": "CB",
+                "nb": [
+                    "CA",
+                    "SG"
+                ],
+                "h": [
+                    {
+                        "name": "HB3",
+                        "type": "C3"
+                    },
+                    {
+                        "name": "HB2",
+                        "type": "C2"
+                    }
+                ]
+            },
+            {
+                "atom": "SG",
+                "nb": [
+                    "CA",
+                    "CB"
+                ],
+                "pKa": 8.5,
+                "h": [
+                    {
+                        "name": "HG",
+                        "type": "S"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "GLN",
+        "control": [
+            {
+                "atom": "CB",
+                "nb": [
+                    "CA",
+                    "CG"
+                ],
+                "h": [
+                    {
+                        "name": "HB3",
+                        "type": "C3"
+                    },
+                    {
+                        "name": "HB2",
+                        "type": "C2"
+                    }
+                ]
+            },
+            {
+                "atom": "CG",
+                "nb": [
+                    "CB",
+                    "CD"
+                ],
+                "h": [
+                    {
+                        "name": "HG3",
+                        "type": "C3"
+                    },
+                    {
+                        "name": "HG2",
+                        "type": "C2"
+                    }
+                ]
+            },
+            {
+                "atom": "NE2",
+                "nb": [
+                    "CD",
+                    "OE1"
+                ],
+                "h": [
+                    {
+                        "name": "HE21",
+                        "type": "N2cop"
+                    },
+                    {
+                        "name": "HE22",
+                        "type": "N1cop"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "GLU",
+        "control": [
+            {
+                "atom": "CB",
+                "nb": [
+                    "CA",
+                    "CG"
+                ],
+                "h": [
+                    {
+                        "name": "HB3",
+                        "type": "C3"
+                    },
+                    {
+                        "name": "HB2",
+                        "type": "C2"
+                    }
+                ]
+            },
+            {
+                "atom": "CG",
+                "nb": [
+                    "CB",
+                    "CD"
+                ],
+                "h": [
+                    {
+                        "name": "HG3",
+                        "type": "C3"
+                    },
+                    {
+                        "name": "HG2",
+                        "type": "C2"
+                    }
+                ]
+            },
+            {
+                "atom": "OE2",
+                "nb": [
+                    "CD",
+                    "OE1"
+                ],
+                "pKa": 4,
+                "h": [
+                    {
+                        "name": "HE2",
+                        "type": "carbox"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "HIS",
+        "control": [
+            {
+                "atom": "CB",
+                "nb": [
+                    "CA",
+                    "CG"
+                ],
+                "h": [
+                    {
+                        "name": "HB3",
+                        "type": "C3"
+                    },
+                    {
+                        "name": "HB2",
+                        "type": "C2"
+                    }
+                ]
+            },
+            {
+                "atom": "CD2",
+                "nb": [
+                    "CG",
+                    "NE2"
+                ],
+                "h": [
+                    {
+                        "name": "HD2",
+                        "type": "ring"
+                    }
+                ]
+            },
+            {
+                "atom": "NE2",
+                "nb": [
+                    "CD2",
+                    "CE1"
+                ],
+                "h": [
+                    {
+                        "name": "HE2",
+                        "type": "ring"
+                    }
+                ]
+            },
+            {
+                "atom": "CE1",
+                "nb": [
+                    "ND1",
+                    "NE2"
+                ],
+                "h": [
+                    {
+                        "name": "HE1",
+                        "type": "ring"
+                    }
+                ]
+            },
+            {
+                "atom": "ND1",
+                "nb": [
+                    "CG",
+                    "CE1"
+                ],
+                "h": [
+                    {
+                        "name": "HD1",
+                        "type": "ring"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "ILE",
+        "control": [
+            {
+                "atom": "CB",
+                "nb": [
+                    "CG1",
+                    "CG2",
+                    "CA"
+                ],
+                "h": [
+                    {
+                        "name": "HB",
+                        "type": "C"
+                    }
+                ]
+            },
+            {
+                "atom": "CG2",
+                "nb": [
+                    "CB",
+                    "CA"
+                ],
+                "h": [
+                    {
+                        "name": "HG23",
+                        "type": "C4"
+                    },
+                    {
+                        "name": "HG22",
+                        "type": "C3"
+                    },
+                    {
+                        "name": "HG21",
+                        "type": "C2"
+                    }
+                ]
+            },
+            {
+                "atom": "CG1",
+                "nb": [
+                    "CB",
+                    "CD1"
+                ],
+                "h": [
+                    {
+                        "name": "HG13",
+                        "type": "C3"
+                    },
+                    {
+                        "name": "HG12",
+                        "type": "C2"
+                    }
+                ]
+            },
+            {
+                "atom": "CD1",
+                "nb": [
+                    "CG1",
+                    "CB"
+                ],
+                "h": [
+                    {
+                        "name": "HD13",
+                        "type": "C4"
+                    },
+                    {
+                        "name": "HD12",
+                        "type": "C3"
+                    },
+                    {
+                        "name": "HD11",
+                        "type": "C2"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "LEU",
+        "control": [
+            {
+                "atom": "CB",
+                "nb": [
+                    "CA",
+                    "CG"
+                ],
+                "h": [
+                    {
+                        "name": "HB3",
+                        "type": "C3"
+                    },
+                    {
+                        "name": "HB2",
+                        "type": "C2"
+                    }
+                ]
+            },
+            {
+                "atom": "CG",
+                "nb": [
+                    "CB",
+                    "CD2",
+                    "CD1"
+                ],
+                "h": [
+                    {
+                        "name": "HG",
+                        "type": "C"
+                    }
+                ]
+            },
+            {
+                "atom": "CD2",
+                "nb": [
+                    "CB",
+                    "CG"
+                ],
+                "h": [
+                    {
+                        "name": "HD23",
+                        "type": "C4"
+                    },
+                    {
+                        "name": "HD22",
+                        "type": "C3"
+                    },
+                    {
+                        "name": "HD21",
+                        "type": "C2"
+                    }
+                ]
+            },
+            {
+                "atom": "CD1",
+                "nb": [
+                    "CG",
+                    "CB"
+                ],
+                "h": [
+                    {
+                        "name": "HD13",
+                        "type": "C4"
+                    },
+                    {
+                        "name": "HD12",
+                        "type": "C3"
+                    },
+                    {
+                        "name": "HD11",
+                        "type": "C2"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "LYS",
+        "control": [
+            {
+                "atom": "CB",
+                "nb": [
+                    "CA",
+                    "CG"
+                ],
+                "h": [
+                    {
+                        "name": "HB3",
+                        "type": "C3"
+                    },
+                    {
+                        "name": "HB2",
+                        "type": "C2"
+                    }
+                ]
+            },
+            {
+                "atom": "CG",
+                "nb": [
+                    "CB",
+                    "CD"
+                ],
+                "h": [
+                    {
+                        "name": "HG3",
+                        "type": "C3"
+                    },
+                    {
+                        "name": "HG2",
+                        "type": "C2"
+                    }
+                ]
+            },
+            {
+                "atom": "CD",
+                "nb": [
+                    "CG",
+                    "CE"
+                ],
+                "h": [
+                    {
+                        "name": "HD3",
+                        "type": "C3"
+                    },
+                    {
+                        "name": "HD2",
+                        "type": "C2"
+                    }
+                ]
+            },
+            {
+                "atom": "CE",
+                "nb": [
+                    "CD",
+                    "NZ"
+                ],
+                "h": [
+                    {
+                        "name": "HE3",
+                        "type": "C3"
+                    },
+                    {
+                        "name": "HE2",
+                        "type": "C2"
+                    }
+                ]
+            },
+            {
+                "atom": "NZ",
+                "nb": [
+                    "CD",
+                    "CE"
+                ],
+                "pKa": 10.5,
+                "h": [
+                    {
+                        "name": "HZ1",
+                        "type": "Ncoplanar"
+                    },
+                    {
+                        "name": "HZ2",
+                        "type": "lysN2"
+                    },
+                    {
+                        "name": "HZ3",
+                        "type": "N3"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "MET",
+        "control": [
+            {
+                "atom": "CB",
+                "nb": [
+                    "CA",
+                    "CG"
+                ],
+                "h": [
+                    {
+                        "name": "HB3",
+                        "type": "C3"
+                    },
+                    {
+                        "name": "HB2",
+                        "type": "C2"
+                    }
+                ]
+            },
+            {
+                "atom": "CG",
+                "nb": [
+                    "CB",
+                    "SD"
+                ],
+                "h": [
+                    {
+                        "name": "HG3",
+                        "type": "C3"
+                    },
+                    {
+                        "name": "HG2",
+                        "type": "C2"
+                    }
+                ]
+            },
+            {
+                "atom": "CE",
+                "nb": [
+                    "SD",
+                    "CG"
+                ],
+                "h": [
+                    {
+                        "name": "HE3",
+                        "type": "C4"
+                    },
+                    {
+                        "name": "HE2",
+                        "type": "C3"
+                    },
+                    {
+                        "name": "HE1",
+                        "type": "C2"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "PHE",
+        "control": [
+            {
+                "atom": "CB",
+                "nb": [
+                    "CA",
+                    "CG"
+                ],
+                "h": [
+                    {
+                        "name": "HB3",
+                        "type": "C3"
+                    },
+                    {
+                        "name": "HB2",
+                        "type": "C2"
+                    }
+                ]
+            },
+            {
+                "atom": "CD2",
+                "nb": [
+                    "CG",
+                    "CE2"
+                ],
+                "h": [
+                    {
+                        "name": "HD2",
+                        "type": "ring"
+                    }
+                ]
+            },
+            {
+                "atom": "CE2",
+                "nb": [
+                    "CD2",
+                    "CZ"
+                ],
+                "h": [
+                    {
+                        "name": "HE2",
+                        "type": "ring"
+                    }
+                ]
+            },
+            {
+                "atom": "CZ",
+                "nb": [
+                    "CE2",
+                    "CE1"
+                ],
+                "h": [
+                    {
+                        "name": "HZ",
+                        "type": "ring"
+                    }
+                ]
+            },
+            {
+                "atom": "CE1",
+                "nb": [
+                    "CZ",
+                    "CD1"
+                ],
+                "h": [
+                    {
+                        "name": "HE1",
+                        "type": "ring"
+                    }
+                ]
+            },
+            {
+                "atom": "CD1",
+                "nb": [
+                    "CG",
+                    "CE1"
+                ],
+                "h": [
+                    {
+                        "name": "HD1",
+                        "type": "ring"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "PRO",
+        "control": [
+            {
+                "atom": "OXT",
+                "nb": [
+                    "C",
+                    "O"
+                ],
+                "pKa": 3,
+                "h": [
+                    {
+                        "name": "HXT",
+                        "type": "carbox"
+                    }
+                ]
+            },
+            {
+                "atom": "CA",
+                "nb": [
+                    "CB",
+                    "N",
+                    "C"
+                ],
+                "h": [
+                    {
+                        "name": "HA",
+                        "type": "C"
+                    }
+                ]
+            },
+            {
+                "atom": "N",
+                "nb": [
+                    "CD",
+                    "CA"
+                ],
+                "pKa": 8,
+                "h": [
+                    {
+                        "name": "H",
+                        "type": "argN"
+                    }
+                ]
+            },
+            {
+                "atom": "CB",
+                "nb": [
+                    "CA",
+                    "CG"
+                ],
+                "h": [
+                    {
+                        "name": "HB3",
+                        "type": "C3"
+                    },
+                    {
+                        "name": "HB2",
+                        "type": "C2"
+                    }
+                ]
+            },
+            {
+                "atom": "CG",
+                "nb": [
+                    "CB",
+                    "CD"
+                ],
+                "h": [
+                    {
+                        "name": "HG3",
+                        "type": "C3"
+                    },
+                    {
+                        "name": "HG2",
+                        "type": "C2"
+                    }
+                ]
+            },
+            {
+                "atom": "CD",
+                "nb": [
+                    "CG",
+                    "N"
+                ],
+                "h": [
+                    {
+                        "name": "HD3",
+                        "type": "C3"
+                    },
+                    {
+                        "name": "HD2",
+                        "type": "C2"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "SER",
+        "control": [
+            {
+                "atom": "CB",
+                "nb": [
+                    "CA",
+                    "OG"
+                ],
+                "h": [
+                    {
+                        "name": "HB3",
+                        "type": "C3"
+                    },
+                    {
+                        "name": "HB2",
+                        "type": "C2"
+                    }
+                ]
+            },
+            {
+                "atom": "OG",
+                "nb": [
+                    "CA",
+                    "CB"
+                ],
+                "pKa": 13,
+                "h": [
+                    {
+                        "name": "HG",
+                        "type": "carbox"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "TRP",
+        "control": [
+            {
+                "atom": "CB",
+                "nb": [
+                    "CA",
+                    "CG"
+                ],
+                "h": [
+                    {
+                        "name": "HB3",
+                        "type": "C3"
+                    },
+                    {
+                        "name": "HB2",
+                        "type": "C2"
+                    }
+                ]
+            },
+            {
+                "atom": "CD1",
+                "nb": [
+                    "CG",
+                    "NE1"
+                ],
+                "h": [
+                    {
+                        "name": "HD1",
+                        "type": "ring"
+                    }
+                ]
+            },
+            {
+                "atom": "NE1",
+                "nb": [
+                    "CD1",
+                    "CE2"
+                ],
+                "h": [
+                    {
+                        "name": "HE1",
+                        "type": "ring"
+                    }
+                ]
+            },
+            {
+                "atom": "CZ2",
+                "nb": [
+                    "CH2",
+                    "CE2"
+                ],
+                "h": [
+                    {
+                        "name": "HZ2",
+                        "type": "ring"
+                    }
+                ]
+            },
+            {
+                "atom": "CH2",
+                "nb": [
+                    "CZ2",
+                    "CZ3"
+                ],
+                "h": [
+                    {
+                        "name": "HH2",
+                        "type": "ring"
+                    }
+                ]
+            },
+            {
+                "atom": "CZ3",
+                "nb": [
+                    "CH2",
+                    "CE3"
+                ],
+                "h": [
+                    {
+                        "name": "HZ3",
+                        "type": "ring"
+                    }
+                ]
+            },
+            {
+                "atom": "CE3",
+                "nb": [
+                    "CZ3",
+                    "CD2"
+                ],
+                "h": [
+                    {
+                        "name": "HE3",
+                        "type": "ring"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "TYR",
+        "control": [
+            {
+                "atom": "CB",
+                "nb": [
+                    "CA",
+                    "CG"
+                ],
+                "h": [
+                    {
+                        "name": "HB3",
+                        "type": "C3"
+                    },
+                    {
+                        "name": "HB2",
+                        "type": "C2"
+                    }
+                ]
+            },
+            {
+                "atom": "CD1",
+                "nb": [
+                    "CG",
+                    "CE1"
+                ],
+                "h": [
+                    {
+                        "name": "HD1",
+                        "type": "ring"
+                    }
+                ]
+            },
+            {
+                "atom": "CD2",
+                "nb": [
+                    "CG",
+                    "CE2"
+                ],
+                "h": [
+                    {
+                        "name": "HD2",
+                        "type": "ring"
+                    }
+                ]
+            },
+            {
+                "atom": "CE1",
+                "nb": [
+                    "CD1",
+                    "CZ"
+                ],
+                "h": [
+                    {
+                        "name": "HE1",
+                        "type": "ring"
+                    }
+                ]
+            },
+            {
+                "atom": "CE2",
+                "nb": [
+                    "CZ",
+                    "CD2"
+                ],
+                "h": [
+                    {
+                        "name": "HE2",
+                        "type": "ring"
+                    }
+                ]
+            },
+            {
+                "atom": "OH",
+                "nb": [
+                    "CZ",
+                    "CE1"
+                ],
+                "pKa": 10.5,
+                "h": [
+                    {
+                        "name": "HH",
+                        "type": "coplanar"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "VAL",
+        "control": [
+            {
+                "atom": "CB",
+                "nb": [
+                    "CA",
+                    "CG2",
+                    "CG1"
+                ],
+                "h": [
+                    {
+                        "name": "HB",
+                        "type": "C"
+                    }
+                ]
+            },
+            {
+                "atom": "CG1",
+                "nb": [
+                    "CA",
+                    "CB"
+                ],
+                "h": [
+                    {
+                        "name": "HG13",
+                        "type": "C4"
+                    },
+                    {
+                        "name": "HG12",
+                        "type": "C3"
+                    },
+                    {
+                        "name": "HG11",
+                        "type": "C2"
+                    }
+                ]
+            },
+            {
+                "atom": "CG2",
+                "nb": [
+                    "CA",
+                    "CB"
+                ],
+                "h": [
+                    {
+                        "name": "HG23",
+                        "type": "C4"
+                    },
+                    {
+                        "name": "HG22",
+                        "type": "C3"
+                    },
+                    {
+                        "name": "HG21",
+                        "type": "C2"
+                    }
+                ]
+            }
+        ]
+    }
+]

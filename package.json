@@ -1,0 +1,12 @@
+{
+    "name": "sasacalc",
+    "version": "1.0.0",
+    "description": "Application for reading and calculating SASA",
+    "main": "app.js",
+    "author": "Denes Gyarmati",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.18.3",
+        "express": "^4.16.4"
+    }
+}

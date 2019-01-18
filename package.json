@@ -6,10 +6,7 @@
     "author": "Denes Gyarmati",
     "license": "ISC",
     "dependencies": {
-        "chai": "^3.5.0",
-        "chai-http": "^2.0.1",
         "body-parser": "^1.18.3",
-        "mocha": "^2.4.5",
         "express": "^4.16.4"
     },
     "engine": {
@@ -17,8 +14,6 @@
         "npm": "*"
     },
     "scripts": {
-        "start": "node app.js",
-        "build": true,
-        "test": "IP=0.0.0.0 PORT=3030 mocha --timeout 5000 src/*_test.js"
+        "start": "node app.js"
     }
 }

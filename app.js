@@ -20,7 +20,10 @@ app.post("/", function (req, res, next) {
         fs.writeFileSync('sasadata.json', data);
     })
 });
-
+app.get("/", function (req, res, next) {
+    res.send("Working");
+    res.end();
+});
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 

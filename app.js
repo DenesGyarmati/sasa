@@ -8,7 +8,7 @@ var port = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || 8080,
 
 app.post("/", function (req, res, next) {
     var sasa = require("./src/app");
-    res.redirect(307, "http://localhost:8080/result");
+    res.redirect(307, "http://www.biocodeonline.com.php72-38.lan3-1.websitetestlink.com/result");
     let sasapromise = new Promise(function (resolve, reject) {
         var tree = sasa.main(req.body);
         if (tree != {}) {
